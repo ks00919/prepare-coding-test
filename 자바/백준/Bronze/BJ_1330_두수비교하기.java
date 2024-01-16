@@ -4,7 +4,6 @@ import java.io.InputStreamReader;
 
 /**
  * [B5] 백준 1330 두 수 비교하기
- * 
  * 메모리 : 11504KB
  * 시간 : 76ms
  * 코드 길이 : 516B
