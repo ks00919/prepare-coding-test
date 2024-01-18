@@ -12,7 +12,7 @@ import java.io.InputStreamReader;
  * @see <a href="https://www.acmicpc.net/problem/2577">
  */
 
-public class Main {
+class Main {
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
