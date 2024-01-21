@@ -1,5 +1,3 @@
-package java.baekjoon.Bronze;
-
 /**
  * [B5] 백준 10172 개
  * 메모리 : 11212KB
