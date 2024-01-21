@@ -1,3 +1,5 @@
+package java.baekjoon.Bronze;
+
 import java.io.BufferedWriter;
 import java.io.BufferedReader;
 import java.io.IOException;
