@@ -15,6 +15,7 @@ import java.util.StringTokenizer;
 class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // Token으로 쪼개서 Token 개수 세기
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
         System.out.println(st.countTokens());
 
