@@ -4,8 +4,11 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * [S3] 백준 15650 메모리 : 11496KB 시간 : 88ms 코드 길이 : 1029B
- * 
+ * [S3] 백준 15650 
+ * 메모리 : 11496KB
+ * 시간 : 88ms
+ * 코드 길이 : 1029B
+ *
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/15650">
  */
