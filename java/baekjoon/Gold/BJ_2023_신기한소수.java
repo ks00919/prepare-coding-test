@@ -1,5 +1,3 @@
-package BJ_2023;
-
 import static java.lang.Integer.parseInt;
 
 import java.io.BufferedReader;
