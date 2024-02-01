@@ -11,9 +11,10 @@ import java.io.InputStreamReader;
  * 코드 길이 : 1150
  * 
  * @author 김민주
- * @see <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB">
+ * @see <a href=
+ *      "https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV7GLXqKAWYDFAXB">
  */
-public class Solution {
+class Solution {
 
 	static StringBuilder sb = new StringBuilder();
 	static int[][] field;
@@ -44,13 +45,13 @@ public class Solution {
 		if (x == field.length) {
 			return 0;
 		}
-		
+
 		// x번째 줄 값 검사
 		int value = 0;
 		for (int i = start; i <= end; i++) {
 			value += field[x][i];
 		}
-		
+
 		// 마름모 위쪽이라면 검사 길이 늘리기
 		if (x < field.length / 2) {
 			return value + solution(x + 1, start - 1, end + 1);
