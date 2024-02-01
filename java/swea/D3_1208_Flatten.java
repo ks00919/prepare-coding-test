@@ -11,9 +11,10 @@ import java.util.StringTokenizer;
  * 코드 길이 : 907
  * 
  * @author 김민주
- * @see <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh">
+ * @see <a href=
+ *      "https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh">
  */
-public class Solution {
+class Solution {
 
 	// 결과값 저장 Builder
 	static StringBuilder sb = new StringBuilder();

@@ -11,9 +11,10 @@ import java.io.InputStreamReader;
  * 코드길이 : 1090
  * 
  * @author 김민주
- * @see <a href="https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq">
+ * @see <a href=
+ *      "https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PobmqAPoDFAUq">
  */
-public class Solution {
+class Solution {
 
 	static StringBuilder sb = new StringBuilder();
 
@@ -58,7 +59,7 @@ public class Solution {
 			for (int j = 0; j < size; j++) {
 				snail[x += direction][y] = ++number;
 			}
-			
+
 			// 회전 방향 변경
 			direction *= -1;
 		}
