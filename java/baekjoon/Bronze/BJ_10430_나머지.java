@@ -1,7 +1,10 @@
 import java.util.Scanner;
 
 /**
- * [B5] 백준 10430 나머지
+ * [B5] 백준 10430 나머지 
+ * 메모리 : 12856KB
+ * 시간 : 116ms
+ * 코드 길이 : 462B
  * 
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/10430">
