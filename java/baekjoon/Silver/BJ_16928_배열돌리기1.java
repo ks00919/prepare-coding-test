@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/16926">
  */
-public class Main {
+class Main {
 
 	static int[][] array;
 
