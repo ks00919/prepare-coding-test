@@ -6,7 +6,10 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * SWEA 4012 [모의 SW 역량테스트] 요리사 메모리 : 22544KB 실행시간 : 206ms 코드길이 : 1681
+ * SWEA 4012 [모의 SW 역량테스트] 요리사 
+ * 메모리 : 22544KB 
+ * 실행시간 : 206ms 
+ * 코드길이 : 1681
  * 
  * @author 김민주
  */
