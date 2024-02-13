@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * [S3] 백준 10973 이전 수열
+ * [S3] 백준 10973 이전 순열
  * 메모리 : 14384KB
  * 시간 : 124ms
  * 코드 길이 : 1060B
@@ -16,6 +16,7 @@ import java.util.StringTokenizer;
  */
 public class Main {
 	public static void main(String[] args) throws IOException {
+		// next permutation
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int N = parseInt(br.readLine());
 
@@ -32,7 +33,7 @@ public class Main {
 			i--;
 		}
 		
-		// 만약 전부 앞이 더 작다면 오름차순 정렬이므로 맨 처음 수열
+		// 만약 전부 앞이 더 작다면 오름차순 정렬이므로 맨 처음 순열
 		// -1 출력 후 프로그램 정상종료
 		if (i == 0) {
 			System.out.println("-1");
