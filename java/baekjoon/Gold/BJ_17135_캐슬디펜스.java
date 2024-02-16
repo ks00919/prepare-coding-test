@@ -1,5 +1,3 @@
-package bj17135;
-
 import static java.lang.Integer.parseInt;
 
 import java.io.BufferedReader;
