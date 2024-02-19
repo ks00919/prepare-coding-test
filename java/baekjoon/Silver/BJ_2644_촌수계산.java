@@ -8,6 +8,9 @@ import java.util.*;
  * 메모리 : 11708KB
  * 시간 : 80ms
  * 코드 길이 : 1549B
+ * 
+ * @author 김민주
+ * @see <a href="https://www.acmicpc.net/problem/2644">
  */
 class Main {
 
