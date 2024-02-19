@@ -7,6 +7,9 @@ import java.io.*;
  * 메모리 : 11528KB
  * 시간 : 76ms
  * 코드 길이 : 453B
+ * 
+ * @author 김민주
+ * @see <a href="https://www.acmicpc.net/problem/11720">
  */
 class Main {
 

@@ -10,8 +10,9 @@ import java.util.Arrays;
  * 코드 길이 : 596B
  * 
  * @author 김민주
+ * @see <a href="https://www.acmicpc.net/problem/10989">
  */
-public class Main {
+class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());

@@ -5,6 +5,9 @@ import java.io.*;
  * 메모리 : 11460KB
  * 시간 : 80ms
  * 코드 길이 : 253B
+ * 
+ * @author 김민주
+ * @see <a href="https://www.acmicpc.net/problem/11654">
  */
 class Main {
 

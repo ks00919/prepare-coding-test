@@ -1,10 +1,13 @@
 import java.util.Scanner;
 
 /**
- * [B2] 백준 10870 피보나치 수 5 
- * 메모리 : 12880KB 
- * 시간 : 112ms 
+ * [B2] 백준 10870 피보나치 수 5
+ * 메모리 : 12880KB
+ * 시간 : 112ms
  * 코드 길이 : 318B
+ * 
+ * @author 김민주
+ * @see <a href="https://www.acmicpc.net/problem/10870">
  */
 class Main {
 	public static void main(String[] args) {

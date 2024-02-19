@@ -7,6 +7,9 @@ import java.util.*;
  * 메모리 : 11604KB
  * 시간 : 80ms
  * 코드 길이 : 621B
+ * 
+ * @author 김민주
+ * @see <a href="https://www.acmicpc.net/problem/10951">
  */
 class Main {
     public static void main(String[] args) throws IOException {
