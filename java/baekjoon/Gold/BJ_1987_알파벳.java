@@ -69,6 +69,7 @@ class Main {
 
 			dfs(count + 1, dx, dy);
 		}
+		// 사방탐색을 한 후에는 선택을 취소
 		isUsed[c]--;
 	}
 }
