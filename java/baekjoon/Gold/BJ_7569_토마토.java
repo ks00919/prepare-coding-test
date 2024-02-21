@@ -69,7 +69,7 @@ class Main {
 				// 인덱스 범위 체크
 				if (dz < 0 || dx < 0 || dy < 0 || dz >= H || dx >= N || dy >= M)
 					continue;
-
+				// 안익은 토마토라면 큐에 추가
 				if (boxes[dz][dx][dy] == 0) {
 					q.add(new int[] { dz, dx, dy, location[3] + 1 });
 					// 들어갈 때 방문체크를 하지 않으면 큐에 계속 쌓여서 메모리초과 발생!!!
