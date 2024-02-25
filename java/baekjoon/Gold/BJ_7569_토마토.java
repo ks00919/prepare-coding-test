@@ -18,7 +18,7 @@ import java.util.StringTokenizer;
  */
 class Main {
 
-	// 3차원 배열, dfs
+	// 3차원 배열, bfs
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
