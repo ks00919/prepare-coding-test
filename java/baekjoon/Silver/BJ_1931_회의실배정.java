@@ -11,7 +11,7 @@ import java.util.*;
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/1931">
  */
-public class Main {
+class Main {
 
     static class Time implements Comparable<Time> {
         int start;
