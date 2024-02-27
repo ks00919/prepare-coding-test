@@ -49,6 +49,7 @@ public class Main {
 	
 	// n번째 0이나 1이 호출되는 횟수 = n-1번째 호출 횟수 + n-2번째 호출 횟수
 	static void fibo(int n) {
+		// 만약 저장이 안되어있다면 이전 값으로 재귀 호출
 		if (memo0[n - 1] == 0 && memo1[n - 1] == 0) {
 			fibo(n - 1);
 		}
