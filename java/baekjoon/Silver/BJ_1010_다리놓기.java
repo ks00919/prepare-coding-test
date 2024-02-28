@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
 class Main {
 	
 	// M개의 다리 중에서 N개를 순서 상관없이 놓는다고 생각하면 조합이다!(mCn)
-  // 시간 제한이 0.5초이고 조합이므로 DP로 풀이
+  	// 시간 제한이 0.5초이고 조합이므로 DP로 풀이
 	// 파스칼의 삼각형을 사용해서 풀이
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
