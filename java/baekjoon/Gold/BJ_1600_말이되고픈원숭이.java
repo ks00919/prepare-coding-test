@@ -35,6 +35,7 @@ public class Main {
 	static int[] dy = { 0, 0, 1, -1 };
 
 	// bfs로 말처럼 이동한 경로와 원숭이처럼 이동한 경로 탐색
+	// 경우의 수가 나뉘기 때문에 이전의 bfs처럼은 풀이할 수 없음!! → 3차원 배열을 사용해서 경우의 수에 따른 방문 체크
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int K = parseInt(br.readLine());
@@ -65,22 +66,28 @@ public class Main {
 			if (curr.x == H - 1 && curr.y == W - 1)
 				break;
 
+			// 점프횟수가 남아있을 때 말처럼 뛰기!
 			if (curr.k > 0) {
 				for (int i = 0; i < 8; i++) {
 					int x = curr.x + jx[i];
 					int y = curr.y + jy[i];
-
+					
+					// 인덱스 배열을 넘거나, 도착위치에 장애물이 있거나
+					// 현재 잔여 점프횟수만큼 써서 이전에 방문했었다면 넘기기
 					if (x < 0 || y < 0 || x >= H || y >= W || map[x][y] == 1 || visited[x][y][curr.k - 1] == 1)
 						continue;
 					visited[x][y][curr.k - 1] = 1;
 					q.add(new Pair(x, y, curr.degree + 1, curr.k - 1));
 				}
 			}
-
+			
+			// 원숭이 처럼 뛰기
 			for (int i = 0; i < 4; i++) {
 				int x = curr.x + dx[i];
 				int y = curr.y + dy[i];
-
+				
+				// 인덱스 배열을 넘거나, 도착위치에 장애물이 있거나
+				// 현재 잔여 점프횟수만큼 써서 이전에 방문했었다면 넘기기
 				if (x < 0 || y < 0 || x >= H || y >= W || map[x][y] == 1 || visited[x][y][curr.k] == 1)
 					continue;
 				visited[x][y][curr.k] = 1;
