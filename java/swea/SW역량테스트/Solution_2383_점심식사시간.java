@@ -124,16 +124,14 @@ public class Solution {
 		int[] stair1 = new int[3];
 		int[] stair2 = new int[3];
 
-		while (true) {
+		do {
 			down(qs[0], stair1, count);
 			down(qs[1], stair2, count);
 
 			if (++count >= min)
 				return;
-
-			if (!check(stair1, stair2, qs))
-				break;
-		}
+			
+		}while(check(stair1, stair2, qs));
 		min = count;
 	}
 	
