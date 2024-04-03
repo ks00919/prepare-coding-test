@@ -40,6 +40,7 @@ public class Main {
 		System.out.println(sb);
 	}
 
+	// 분할 제곱
 	public static long pow(long number, long n) {
 		if (n == 0)
 			return 1;
