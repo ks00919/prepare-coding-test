@@ -11,6 +11,8 @@ import java.util.StringTokenizer;
  * 메모리 : 24940KB
  * 시간 : 180ms
  * 코드 길이 : 936B
+ * 
+ * * @see <a href="https://www.acmicpc.net/problem/10093"/>
  */
 public class Main {
     // 문제 조건을 잘 읽고 풀이할 것!!
