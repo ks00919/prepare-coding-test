@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/1330">
  */
-class Main {
+public class Main {
     public static void main(String[] args) throws IOException {
         // 입력 받기
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -13,7 +13,7 @@ import java.io.IOException;
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/2446">
  */
-class Main {
+public class Main {
 	public static void main(String[] args) throws IOException {
 		// 입출력 BufferedReader, BufferedWriter 선언
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

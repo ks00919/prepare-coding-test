@@ -7,7 +7,7 @@
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/10172">
  */
-class Main {
+public class Main {
     public static void main(String[] args) {
         System.out.println("|\\_/|");
         System.out.println("|q p|   /}");

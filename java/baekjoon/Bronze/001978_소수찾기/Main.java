@@ -4,32 +4,29 @@ import java.util.*;
 import java.io.*;
 
 /**
- * [S3] 백준 1929 소수 구하기
- * 메모리 : 16432KB
- * 시간 : 368ms
- * 코드 길이 : 899B
+ * [B2] 백준 1978 소수 찾기
+ * 메모리 : 11560
+ * 시간 : 76ms
+ * 코드 길이 : 839
  * 
  * @author 김민주
- * @see <a href="https://www.acmicpc.net/problem/1929">
+ * @see <a href="https://www.acmicpc.net/problem/1978">
  */
-class Main {
-
-    static StringBuilder sb = new StringBuilder();
+public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
+        int n = parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int m = parseInt(st.nextToken());
-        int n = parseInt(st.nextToken());
+        int count = 0;
 
-        for (int i = m; i <= n; i++) {
-            if (isPrime(i)) {
-                sb.append(i).append('\n');
-            }
+        for (int i = 0; i < n; i++) {
+            int number = parseInt(st.nextToken());
+            count += isPrime(number) ? 1 : 0;
         }
 
-        System.out.println(sb);
+        System.out.println(count);
     }
 
     public static boolean isPrime(int number) {

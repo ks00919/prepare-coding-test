@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/1152">
  */
-class Main {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // Token으로 쪼개서 Token 개수 세기

@@ -13,7 +13,7 @@ import java.io.OutputStreamWriter;
  * @author 김민주
  * @see <a href="https://www.acmicpc.net/problem/2753">
  */
-public class BJ_2753_윤년 {
+public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

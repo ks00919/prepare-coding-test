@@ -16,9 +16,9 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		// 입력의 제한이 90까지이기 때문에 정수형은 오버플로우 가능성이 있음 - long 타입 사용 
+		// 입력의 제한이 90까지이기 때문에 정수형은 오버플로우 가능성이 있음 - long 타입 사용
 		int n = parseInt(br.readLine());
-		
+
 		long[] memo = new long[n + 1];
 		memo[1] = 1;
 		for (int i = 2; i <= n; i++) {
