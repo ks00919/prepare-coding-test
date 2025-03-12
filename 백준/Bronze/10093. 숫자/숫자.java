@@ -8,14 +8,14 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int a = Integer.parseInt(st.nextToken());
-        int b = Integer.parseInt(st.nextToken());
+        long a = Long.parseLong(st.nextToken());
+        long b = Long.parseLong(st.nextToken());
 
         if (a == b) {
             System.out.println(0);
             System.exit(0);
         } else if (a > b) {
-            int tmp = a;
+            long tmp = a;
             a = b;
             b = tmp;
         }
@@ -23,7 +23,7 @@ public class Main {
         StringBuilder sb = new StringBuilder();
         sb.append(b - a - 1).append("\n");
 
-        for (int i = a + 1; i < b; i++) {
+        for (long i = a + 1; i < b; i++) {
             sb.append(i).append(" ");
         }
         System.out.println(sb);
